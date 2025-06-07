@@ -76,3 +76,26 @@ docker-compose logs -f
 # Stop and remove containers
 docker-compose down
 ```
+
+---
+
+### 🌐 Application Host and Port
+
+By default, the application listens on:
+
+- **Host:** `localhost` (or `0.0.0.0` if configured)
+- **Port:** `8080`
+
+You can customize these values in your configuration files (`config.json` or environment variables).
+
+---
+
+### 📖 API Documentation (Swagger)
+
+Once the app is running, the Swagger UI for the API documentation is available at:
+
+http://localhost:8080/swagger/index.html
+
+> Adjust the host and port accordingly if you changed them in your config.
+
+---
