@@ -16,13 +16,23 @@ cp ./dbconfig.yml.example ./dbconfig.yml
 cp ./docker-compose.env.example ./docker-compose.env
 ```
 
-
 ### 2. Build and Run the Application
+
+#### Option A: Using Docker
 
 Use Docker Compose to build the containers and start the application in the background:
 
 ```bash
 docker-compose --env-file docker-compose.env up --build -d
+```
+
+#### Option B: Without Docker
+
+Make sure you have Go installed, then build and run the application directly:
+
+```bash
+go build -o app ./cmd/posts/main.go
+./app
 ```
 
 ### 3. Run Database Migrations
