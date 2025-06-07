@@ -1,0 +1,23 @@
+{
+  "addr": "0.0.0.0:8080",
+  "base_url": "http://0.0.0.0:8080",
+  "storage": {
+    "dsn": "host=posts_storage port=5432 user=user password=pass dbname=posts sslmode=disable"
+  },
+  "jwt": {
+    "secret_key": "ew-aYuCEniK){P8b$ToQjN2J",
+    "period_in_hours": 24
+  },
+  "redis": {
+    "addr": "posts_redis:6379",
+    "password": "",
+    "db": 1
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "username": "username",
+    "password": "password",
+    "from": "email@gmail.com"
+  }
+}

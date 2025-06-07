@@ -1,0 +1,64 @@
+services:
+  posts:
+    container_name: posts
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - app-logs:/logs
+      - app-files:/files
+    ports:
+      - "8080:8080"
+    depends_on:
+      storage:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - posts_network
+
+  storage:
+    container_name: posts_storage
+    image: postgres:16
+    restart: always
+    user: postgres
+    volumes:
+      - storage-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    ports:
+      - ${DB_PORT}:${DB_PORT}
+    healthcheck:
+      test: [ "CMD", "pg_isready" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - posts_network
+
+  redis:
+    container_name: posts_redis
+    platform: linux/x86_64
+    image: "redis:alpine"
+    ports:
+      - ${REDIS_PORT}:${REDIS_PORT}
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - posts_network
+
+volumes:
+  storage-data:
+  app-logs:
+  app-files:
+  redis-data:
+
+networks:
+  posts_network:

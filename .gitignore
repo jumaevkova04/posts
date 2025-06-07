@@ -1,0 +1,5 @@
+logs/
+config.json
+dbconfig.yml
+docker-compose.env
+docker-build.sh
