@@ -1,5 +1,7 @@
+.idea/
 logs/
 config.json
 dbconfig.yml
 docker-compose.env
 docker-build.sh
+*.DS_Store
