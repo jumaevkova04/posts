@@ -1,10 +1,10 @@
 package service
 
 import (
-	"github.com/jumaevkova04/posts/internal/dto"
-	"github.com/jumaevkova04/posts/internal/helpers"
-	"github.com/jumaevkova04/posts/internal/models"
-	"github.com/jumaevkova04/posts/pkg/response"
+	"github.com/jumaevkova/posts/internal/dto"
+	"github.com/jumaevkova/posts/internal/helpers"
+	"github.com/jumaevkova/posts/internal/models"
+	"github.com/jumaevkova/posts/pkg/response"
 )
 
 func (s *Service) UserInfo(input *dto.UserInfoRequest) (*models.User, error) {

@@ -1,11 +1,11 @@
 package service
 
 import (
-	"github.com/jumaevkova04/posts/internal/dto"
-	"github.com/jumaevkova04/posts/internal/helpers"
-	"github.com/jumaevkova04/posts/pkg/jwt"
-	"github.com/jumaevkova04/posts/pkg/password"
-	"github.com/jumaevkova04/posts/pkg/response"
+	"github.com/jumaevkova/posts/internal/dto"
+	"github.com/jumaevkova/posts/internal/helpers"
+	"github.com/jumaevkova/posts/pkg/jwt"
+	"github.com/jumaevkova/posts/pkg/password"
+	"github.com/jumaevkova/posts/pkg/response"
 	"time"
 )
 

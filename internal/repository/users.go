@@ -3,8 +3,8 @@ package repository
 import (
 	"database/sql"
 	"errors"
-	"github.com/jumaevkova04/posts/internal/helpers"
-	"github.com/jumaevkova04/posts/internal/models"
+	"github.com/jumaevkova/posts/internal/helpers"
+	"github.com/jumaevkova/posts/internal/models"
 )
 
 func (r *Repository) CreateUser(user *models.User) error {

@@ -2,11 +2,11 @@ package service
 
 import (
 	"fmt"
-	"github.com/jumaevkova04/posts/internal/dto"
-	"github.com/jumaevkova04/posts/internal/models"
-	"github.com/jumaevkova04/posts/pkg/crypto"
-	"github.com/jumaevkova04/posts/pkg/password"
-	"github.com/jumaevkova04/posts/pkg/response"
+	"github.com/jumaevkova/posts/internal/dto"
+	"github.com/jumaevkova/posts/internal/models"
+	"github.com/jumaevkova/posts/pkg/crypto"
+	"github.com/jumaevkova/posts/pkg/password"
+	"github.com/jumaevkova/posts/pkg/response"
 	"time"
 )
 

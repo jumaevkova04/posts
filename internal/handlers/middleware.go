@@ -3,7 +3,7 @@ package handlers
 import (
 	"fmt"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/jumaevkova04/posts/pkg/response"
+	"github.com/jumaevkova/posts/pkg/response"
 	"net/http"
 	"strings"
 )

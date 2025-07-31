@@ -3,7 +3,7 @@ package dto
 import (
 	v "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/jumaevkova04/posts/internal/models"
+	"github.com/jumaevkova/posts/internal/models"
 )
 
 type CreatePostRequest struct {

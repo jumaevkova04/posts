@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"errors"
-	"github.com/jumaevkova04/posts/internal/config"
-	"github.com/jumaevkova04/posts/internal/service"
-	"github.com/jumaevkova04/posts/pkg/leveledlog"
-	"github.com/jumaevkova04/posts/pkg/response"
+	"github.com/jumaevkova/posts/internal/config"
+	"github.com/jumaevkova/posts/internal/service"
+	"github.com/jumaevkova/posts/pkg/leveledlog"
+	"github.com/jumaevkova/posts/pkg/response"
 	"net/http"
 )
 

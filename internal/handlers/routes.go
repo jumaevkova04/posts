@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"github.com/go-chi/chi/v5"
-	_ "github.com/jumaevkova04/posts/docs"
-	"github.com/jumaevkova04/posts/pkg/cors"
-	"github.com/jumaevkova04/posts/pkg/response"
+	_ "github.com/jumaevkova/posts/docs"
+	"github.com/jumaevkova/posts/pkg/cors"
+	"github.com/jumaevkova/posts/pkg/response"
 	httpSwagger "github.com/swaggo/http-swagger/v2"
 	"net/http"
 )

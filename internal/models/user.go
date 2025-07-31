@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/jumaevkova04/posts/internal/helpers"
+	"github.com/jumaevkova/posts/internal/helpers"
 	"gopkg.in/guregu/null.v3"
 )
 

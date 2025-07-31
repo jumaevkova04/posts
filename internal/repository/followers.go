@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/jumaevkova04/posts/internal/models"
+import "github.com/jumaevkova/posts/internal/models"
 
 func (r *Repository) CreateFollower(follower *models.Follower) error {
 	_, err := r.Exec(

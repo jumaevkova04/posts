@@ -1,4 +1,4 @@
-module github.com/jumaevkova04/posts
+module github.com/jumaevkova/posts
 
 go 1.23.8
 

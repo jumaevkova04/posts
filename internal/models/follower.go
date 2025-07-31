@@ -1,6 +1,6 @@
 package models
 
-import "github.com/jumaevkova04/posts/internal/helpers"
+import "github.com/jumaevkova/posts/internal/helpers"
 
 type Follower struct {
 	ID          string `json:"id" db:"id"`

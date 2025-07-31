@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/jumaevkova04/posts/internal/dto"
-	"github.com/jumaevkova04/posts/pkg/request"
-	"github.com/jumaevkova04/posts/pkg/response"
+	"github.com/jumaevkova/posts/internal/dto"
+	"github.com/jumaevkova/posts/pkg/request"
+	"github.com/jumaevkova/posts/pkg/response"
 	"net/http"
 )
 

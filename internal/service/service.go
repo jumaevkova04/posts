@@ -1,10 +1,10 @@
 package service
 
 import (
-	"github.com/jumaevkova04/posts/internal/config"
-	"github.com/jumaevkova04/posts/internal/repository"
-	"github.com/jumaevkova04/posts/pkg/redis"
-	"github.com/jumaevkova04/posts/pkg/smtp"
+	"github.com/jumaevkova/posts/internal/config"
+	"github.com/jumaevkova/posts/internal/repository"
+	"github.com/jumaevkova/posts/pkg/redis"
+	"github.com/jumaevkova/posts/pkg/smtp"
 )
 
 type Service struct {

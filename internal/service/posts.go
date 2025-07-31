@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/jumaevkova04/posts/internal/dto"
-	"github.com/jumaevkova04/posts/internal/models"
-	"github.com/jumaevkova04/posts/pkg/response"
+	"github.com/jumaevkova/posts/internal/dto"
+	"github.com/jumaevkova/posts/internal/models"
+	"github.com/jumaevkova/posts/pkg/response"
 )
 
 func (s *Service) CreatePost(input *dto.CreatePostRequest) error {

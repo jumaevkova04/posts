@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/jumaevkova04/posts/internal/config"
-	"github.com/jumaevkova04/posts/internal/handlers"
-	"github.com/jumaevkova04/posts/internal/repository"
-	"github.com/jumaevkova04/posts/internal/service"
-	"github.com/jumaevkova04/posts/pkg/leveledlog"
-	"github.com/jumaevkova04/posts/pkg/redis"
-	"github.com/jumaevkova04/posts/pkg/server"
-	"github.com/jumaevkova04/posts/pkg/smtp"
+	"github.com/jumaevkova/posts/internal/config"
+	"github.com/jumaevkova/posts/internal/handlers"
+	"github.com/jumaevkova/posts/internal/repository"
+	"github.com/jumaevkova/posts/internal/service"
+	"github.com/jumaevkova/posts/pkg/leveledlog"
+	"github.com/jumaevkova/posts/pkg/redis"
+	"github.com/jumaevkova/posts/pkg/server"
+	"github.com/jumaevkova/posts/pkg/smtp"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 

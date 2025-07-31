@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/jumaevkova04/posts/internal/models"
+	"github.com/jumaevkova/posts/internal/models"
 )
 
 func (r *Repository) CreatePost(post *models.Post) error {
